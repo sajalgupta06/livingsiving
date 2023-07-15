@@ -1,0 +1,46 @@
+.l-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5rem 0;
+    width: 100%;
+    .heading{
+        margin-bottom: 3rem;
+    }
+
+    .l-container{
+        width: 80%;
+        .mapDiv{
+            height: 35rem;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .l-wrapper{
+
+        .l-container{
+            width: 100%;
+            .mapDiv{
+                
+                height: 20rem;
+                
+            }
+        }
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .l-wrapper{
+
+        .l-container{
+            width: 80%;
+            .mapDiv{
+                
+                height: 35rem;
+            }
+        }
+      
+    }
+  }

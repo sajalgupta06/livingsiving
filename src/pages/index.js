@@ -4,10 +4,14 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.scss'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
-import Amenties from '@/components/Amenities'
+import Amenties2 from '@/components/Amenities2'
 import Residencies from '@/components/Residencies'
-import Value from '@/components/Value'
+import Amenities from '@/components/Amenities'
 import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
+import Gallery from '@/components/Gallery'
+import Testimonials from '@/components/Testimonials'
+import Location from '@/components/Location'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -22,10 +26,14 @@ export default function Home() {
      <Header/>
      <Hero/>
     </div>
-    <Amenties/>
-    <Residencies/>
-    <Value/>
+    {/* <Amenties2/> */}
+    {/* <Residencies/> */}
+    <Amenities/>
+    <Gallery/>
+    {/* <Testimonials/> */}
+    <Location/>
     <Contact/>
+    <Footer/>
     </div>
     </>
   )

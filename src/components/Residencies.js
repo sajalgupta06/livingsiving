@@ -12,7 +12,7 @@ import Image from "next/image";
 
 const Residencies = () => {
   var settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     slidesToShow: 4,
  
@@ -98,7 +98,7 @@ const Residencies = () => {
   
   
   return (
-    <section className="r-wrapper">
+    <section className="r-wrapper" id="residencies">
       <div className="paddings innerWidth r-container">
         <div className="r-head flexColStart">
           <span className="orangeText">Best Choice</span>
@@ -121,7 +121,8 @@ const Residencies = () => {
           {data.map((card, i) => {
             return (
            
-                <div className=" flexColStart r-card" key={i}>
+                <div className=" flexColStart r-card " key={i}
+                >
                   <Image  src={card.image}/>
                   <span className="secondaryText r-price">
                     <span style={{ color: "orange" }}>Rs. </span>

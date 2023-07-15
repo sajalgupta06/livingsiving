@@ -9,6 +9,7 @@
     max-width: max-content;
     margin:auto;
     transition: all 300ms ease-in;
+    display: block!important;
 }
 
 .r-card>img{
@@ -73,4 +74,15 @@
 
     box-shadow: 0px 72px 49px -51px rgba(136,160,255,0.21);
 
+}
+
+@media (max-width:640px) {
+
+    .r-head{
+        align-items: center;
+    }
+    .r-buttons{
+        position: initial;
+    }
+    
 }
