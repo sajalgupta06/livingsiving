@@ -62,6 +62,8 @@ export const Header = () => {
           className="menu-icon"
           onClick={() => setMenuOpened((prev) => !prev)}
         >
+                    <Image src={logo} alt="logo" width={100} className="logo" /> 
+
           <BiMenuAltRight size={30} />
         </div>
       </div>

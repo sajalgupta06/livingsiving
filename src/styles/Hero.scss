@@ -16,6 +16,11 @@
     justify-content: space-around;
     align-items: flex-end;
     z-index: 1;
+
+    .image-container{
+        box-shadow: var(--box-shadow);
+       
+    }
   }
 
   // Left Side
@@ -111,6 +116,8 @@
   
 
 @media (max-width: 640px) {
+
+ 
     .hero-wrapper {
       .colorBand {
         height: 11rem;
@@ -121,15 +128,16 @@
         .hero-title h1 {
           font-size: 2.5rem;
           line-height: 3rem;
+          font-weight: 700;
         }
         .image-container {
-          width: 95%;
-          height: 25rem;
+          width: 100%;
+          height: 20rem;
         }
   
         .image-container img {
-          width: 32rem;
-          height: 30rem;
+            width: 100%;
+            height: 20rem;
         }
         .stats {
           justify-content: center;
@@ -144,8 +152,9 @@
         .stat > :nth-child(2) {
           font-size: 0.8rem;
         }
-      }
+      
     }
+}
   }
 
 

@@ -33,7 +33,7 @@
   .row {
     display: flex;
 
-    gap: 1rem;
+    gap: 2rem;
 
     .rowItem {
       width: 50%;
@@ -105,6 +105,9 @@
 }
 @media (max-width: 640px) {
   .v-container {
+    .facilities{
+      width: 100%;
+    }
    .image-container{
     width: 17rem;
     height: 15rem

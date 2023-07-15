@@ -3,20 +3,46 @@
 
   
     .f-container{
-        justify-content: space-between;
         margin-top: 1rem;
+        width: 100%;
+            display: flex;
+            justify-content: space-around;
    
-        
-    }
 
 .f-left{
     gap: 1rem;
+    // width: 100% ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+.f-right{
+    // width: 100% ;
+    // text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .primaryText{
+        margin-bottom: 1rem;
+    }
 
+}
+}
 .f-menu{
     gap: 1.5rem;
     margin-top: 1.5rem;
     font-weight: 500;
    
 }
+}
+
+@media (max-width: 800px){
+    .f-wrapper{
+        .f-container{
+           
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 }

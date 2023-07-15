@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <section className="f-wrapper">
       <div className="paddings innerWidth flexCenter f-container">
-        <div className="flexColStart f-left">
+        <div className=" f-left">
           <Image src={logo} width={120}></Image>
 
           <span className="secondaryText">
@@ -14,7 +14,7 @@ export default function Footer() {
             the best place to live for them.
           </span>
         </div>
-        <div className="flexColStart f-right">
+        <div className=" f-right">
           <span className="primaryText">Address</span>
           <span className="secondaryText">
             B32 Sector 71 Noida, Uttar Pradesh 201301 India
