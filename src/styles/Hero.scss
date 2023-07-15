@@ -1,41 +1,46 @@
-.hero-wrapper{
-    color: var(--white);
-    position:relative;
-    padding-bottom: 2rem;
-    background-color: var(--white);
+.hero-wrapper {
+  color: var(--white);
+  position: relative;
+  padding-bottom: 2rem;
+  background-color: var(--white);
 
+  .colorBand {
+    height: 15rem;
+    width: 100%;
+    background-color: var(--themeColor2);
+    position: absolute;
+    top: 5.5rem;
+  }
 
-
-.hero-container{
+  .hero-container {
     justify-content: space-around;
-    // align-items: flex-end;
-}
+    align-items: flex-end;
+    z-index: 1;
+  }
 
-// Left Side
-.hero-left{
-   gap: 3rem;
-}
-.hero-title{
+  // Left Side
+  .hero-left {
+    gap: 3rem;
+  }
+  .hero-title {
     position: relative;
     z-index: 1;
     line-height: 4rem;
-    color: var(--black);
-}
+    color: var(--white);
+  }
 
-.hero-title h1{
+  .hero-title h1 {
     font-weight: 600;
     font-size: 3.8rem;
     // position: relative;
     // top: -4rem;
-   
-    
-}
+  }
 
-.hero-des{
-    line-height:1.5rem
-}
+  .hero-des {
+    line-height: 1.5rem;
+  }
 
-.orange-circle{
+  .orange-circle {
     height: 4rem;
     width: 4rem;
     background: var(--orange-gradient);
@@ -44,90 +49,116 @@
     right: 28%;
     top: -1 0%;
     z-index: -1;
-}
+  }
 
-
-.search-bar{
+  .search-bar {
     background-color: var(--white);
     border-radius: 5px;
-    border: 3px solid rgba(120,120,120,0.374);
+    border: 3px solid rgba(120, 120, 120, 0.374);
     padding: 0.5rem 1rem;
     justify-content: space-between;
     // width: 100%;
-}
-.search-bar>input{
+  }
+  .search-bar > input {
     border: none;
     outline: none;
+  }
 
-}
-
-.stats{
+  .stats {
     width: 100%;
     justify-content: space-between;
     color: var(--black);
-    
-}
-.stat>:nth-child(1)
-{
+  }
+  .stat > :nth-child(1) {
     font-size: 2rem;
-}
-.stat>:nth-child(1)>:last-child{
-    color: orange;
-}
+  }
+  .stat > :nth-child(1) > :last-child {
+    color: var(--themeColor2);
+    margin-left: 2px;
+  }
 
+  // Right side
 
-
-
-
-// Right side
-
-.image-container{
+  .image-container {
     width: 35rem;
     height: 30rem;
     overflow: hidden;
     // border-radius: 15rem 15rem 0 0 ;
-    border-radius: 2rem ;
-    border: 8px solid rgba(255,255,255,0.12);
-}
-.image-container img{
-   
+    border-radius: 2rem;
+    // border: 8px solid rgba(255,255,255,0.12);
+    position: relative;
+  }
+  .image-container img {
     width: 35rem;
     height: 30rem;
-
+  }
 }
-}
-@media (max-width:640px){
+@media (max-width: 1020px) {
+    .hero-wrapper {
+      .colorBand {
+        height: 15rem;
+        // width: 100%;
+        // background-color: var(--themeColor2);
+        // position: absolute;
+        top: 1rem;
+      }
+    }
+  }
 
-    .hero-container{
-        margin-top: 2rem;
-    
-    .hero-title h1{
-        font-size: 2.5rem;
-        line-height: 3rem;
-    }
-    .image-container{
-        width: 95%;
-        height: 25rem;
-    }
-
-    .image-container img{
-        width: 32rem;
-        height: 30rem;
-    }
-    .stats{
-        justify-content: center;
-        gap: 1.5rem;
-    }
-    .hero-right{
-        width: 100%;
-    }
-    .stat>:nth-child(1){
-        font-size: 1.5rem;
-    }
-    .stat>:nth-child(2){
-        font-size: 0.8rem;
-    }
-}
-}
+  
 
 
+  
+
+@media (max-width: 640px) {
+    .hero-wrapper {
+      .colorBand {
+        height: 11rem;
+      }
+      .hero-container {
+        // margin-top: 2rem;
+  
+        .hero-title h1 {
+          font-size: 2.5rem;
+          line-height: 3rem;
+        }
+        .image-container {
+          width: 95%;
+          height: 25rem;
+        }
+  
+        .image-container img {
+          width: 32rem;
+          height: 30rem;
+        }
+        .stats {
+          justify-content: center;
+          gap: 1.5rem;
+        }
+        .hero-right {
+          width: 100%;
+        }
+        .stat > :nth-child(1) {
+          font-size: 1.5rem;
+        }
+        .stat > :nth-child(2) {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+
+
+  @media (max-width: 309px) {
+    .hero-wrapper {
+      .colorBand {
+        height: 13rem;
+        // width: 100%;
+        // background-color: var(--themeColor2);
+        // position: absolute;
+        top: 1rem;
+      }
+    }
+  }
+
+  

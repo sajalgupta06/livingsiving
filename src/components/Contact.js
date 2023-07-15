@@ -35,7 +35,7 @@ export default function Contact() {
                 <div className='flexColCenter mode'>
                     <div className='flexStart'>
                         <div className='flexCenter icon'>
-                        <BsChatSquareFill size={25}></BsChatSquareFill>
+                        <BsChatSquareFill size={25}  ></BsChatSquareFill>
                         </div>
                         <div className='flexColStart detail'>
                             <span className='primaryText'>Message</span>

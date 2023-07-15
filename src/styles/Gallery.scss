@@ -10,8 +10,14 @@
     .heading{
         margin-bottom: 3rem;
         text-align: start;
-        // width: 100%;
-        color: orange;
+        width: 80%;
+        height: 4rem;
+        background: var(--themeColor2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border-radius: 2rem;
     }
   .g-container {
       display: flex;

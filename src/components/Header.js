@@ -19,7 +19,7 @@ export const Header = () => {
   return (
     <section className="h-wrapper">
       <div className="flexCenter paddings innerWidth  h-container">
-        <Image src={logo} alt="logo" width={100} />
+        {/* <Image src={logo} alt="logo" width={100} /> */}
 
         {/* <OutSideClickHandler onOutsideClick={() => setMenuOpened(false)}> */}
 
@@ -28,14 +28,17 @@ export const Header = () => {
           className="flexCenter h-menu"
          
         >
-          <a href="#">Home</a>
+          {/* <a href="#">Home</a> */}
           {/* <a href='#residencies'>Residencies</a> */}
           <a href="#amenities">Amenties</a>
+
+
           <a href="#gallery">Gallery</a>
+          <Image src={logo} alt="logo" width={100} className="logo" /> 
           <a href="#location">Location</a>
-          <button className="button">
             <a href="#contact">Contact us</a>
-          </button>
+          {/* <button className="button">
+          </button> */}
         </div>
         {menuOpened && (
    <div

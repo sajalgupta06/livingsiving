@@ -35,8 +35,9 @@ export default function Location() {
 
       const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: "AIzaSyBy4VR92e75Ue4z2vBHk3EIADga_6NZqUc"
+        googleMapsApiKey: ""
       })
+      
       const renderMarkers = (map, maps) => {
         let marker = new maps.Marker({
         position: { lat: latitude, lng: longitude },

@@ -8,12 +8,13 @@ import {motion} from 'framer-motion'
 export default function Hero() {
   return (
     <section className='hero-wrapper' >
+        <div className='colorBand'></div>
     <div className='paddings innerWidth flexCenter hero-container'>
 
     <div className='flexColStart hero-left'>
 
         <div className='hero-title'>
-            <div className='orange-circle'></div>
+            {/* <div className='orange-circle'></div> */}
           
             <motion.h1
             initial={{y:"2rem",opacity:0}}
