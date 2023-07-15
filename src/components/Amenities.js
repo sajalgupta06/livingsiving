@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import valuePhoto from "../../public/static/images/amenities.jpg";
+import valuePhoto from "../../public/static/images/amenities2.png";
 import washingMachine from "../../public/static/images/washing-machine-icon.png";
 import fridge from "../../public/static/images/fridge.png";
 import backup from "../../public/static/images/backup.png";

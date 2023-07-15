@@ -8,6 +8,7 @@ import Image from 'next/image'
 export default function Gallery() {
   return (
     <section className='g-wrapper' id='gallery'>
+
         <h2 className='primaryText heading'>Gallery</h2>
         <div className='g-container'>
             <div className='box'>
@@ -23,8 +24,25 @@ export default function Gallery() {
             <div className='box'>
                 <Image src={pg4} alt='livingsivingPg'></Image>
             </div>
-
+    
    
+
+            <div className='box'>
+                <Image src={pg1} alt='livingsivingPg'></Image>
+            </div>
+            <div className='box'>
+                <Image src={pg2} alt='livingsivingPg' ></Image>
+            </div>
+
+            <div className='box'>
+                <Image src={pg3} alt='livingsivingPg'></Image>
+            </div>
+            <div className='box'>
+                <Image src={pg4} alt='livingsivingPg'></Image>
+            </div>
+
+            
+
         </div>
     </section>
   )

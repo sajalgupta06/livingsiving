@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import contactPhoto from '../../public/static/images/contactPhoto.jpg'
+// import contactPhoto from '../../public/static/images/contactPhoto.jpg'
+import contactPhoto from '../../public/static/images/contact2.jpg'
 import { MdCall } from 'react-icons/md'
 import { BsFillChatDotsFill } from 'react-icons/bs'
 import { BsChatSquareFill } from 'react-icons/bs'
