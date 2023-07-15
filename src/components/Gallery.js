@@ -11,17 +11,17 @@ export default function Gallery() {
         <h2 className='primaryText heading'>Gallery</h2>
         <div className='g-container'>
             <div className='box'>
-                <Image src={pg1}></Image>
+                <Image src={pg1} alt='livingsivingPg'></Image>
             </div>
             <div className='box'>
-                <Image src={pg2}></Image>
+                <Image src={pg2} alt='livingsivingPg' ></Image>
             </div>
 
             <div className='box'>
-                <Image src={pg3}></Image>
+                <Image src={pg3} alt='livingsivingPg'></Image>
             </div>
             <div className='box'>
-                <Image src={pg4}></Image>
+                <Image src={pg4} alt='livingsivingPg'></Image>
             </div>
 
    
